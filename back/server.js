@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 
 // Routes
-app.get('/accueil', (req, res) => {
-    res.sendFile(__dirname + '/accueil.html');
+app.get('/singe-araignees', (req, res) => {
+    res.sendFile(__dirname + '/singe-araignees.html');
 });
 
-app.get('/acheter', (req, res) => {
-    res.sendFile(__dirname + '/acheter.html');
+app.get('/mamba-noir', (req, res) => {
+    res.sendFile(__dirname + '/mamba-noir.html');
 });
 
 app.listen(5000);
