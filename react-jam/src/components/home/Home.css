@@ -1,0 +1,70 @@
+/* SECTION ACCUEIL */
+.section-acceuil {
+    background-color: #cccccc;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.title-acceuil {
+    font-size: 5.5rem;
+    font-family: 'Raleway', sans-serif;
+    -webkit-text-stroke: 1px #3E3E3E;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.link-list{
+    text-decoration: none;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.link-list:hover {
+    width: 21%;
+    transition: width 0.5ms;
+}
+
+.list {
+    background: rgba(255,255,255, 0.4);
+    border-radius: 50px;
+    padding: 10px;
+    min-height: 28px;
+    box-shadow: 4px 4px 15px -5px black;
+}
+
+.list:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.img-list {
+    position: absolute;
+    width: 16%;
+    top: 0;
+    left: 0;
+}
+
+.container-list {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.title-list {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 7px;
+    color: #3E3E3E;
+    /*  margin-left: 50px;*/
+}
